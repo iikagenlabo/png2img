@@ -44,6 +44,9 @@ def main():
     x_cnt = 0
     for y in range(height):
         for x in range(width):
+            #  行の先頭に空白を入れる
+            if x_cnt == 0:
+                print("    ", end="")
             pixel = getPixel(x, y)
             # print(rgb2hexstr(pixel) + ",", end="")
             print(outstr(pixel) + ",", end="")
