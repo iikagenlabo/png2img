@@ -1,3 +1,3 @@
 # png2img
 
-Convert PNG image to hexadecimal text and output.
+PNG画像をコードに埋め込むテキストデータに変換します。
